@@ -7,6 +7,7 @@ cmake -S . -B build -G "MinGW Makefiles" -DCMAKE_C_COMPILER:FILEPATH=aarch64-lin
 # 建構項目
 cmake --build build
 ```
+
 ## Mingw64 手動編譯指令
 ```
 # 配置項目
@@ -16,7 +17,7 @@ cmake --build build
 ```
 
 
-## Mac 編譯
+## Mac 手動編譯指令
 ```
 # 配置項目
 cmake -S . -B build -G "Unix Makefiles" -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++ -DCMAKE_TOOLCHAIN_FILE:FILEPATH=toolchain_mac.cmake
