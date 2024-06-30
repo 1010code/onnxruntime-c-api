@@ -1,0 +1,1 @@
+C:\PROGRA~3\DELTAI~1\MinGW\GCC-LI~1.12-\bin\AA3769~1.EXE -g CMakeFiles/main.dir/run.cpp.o CMakeFiles/main.dir/OrtInference.cpp.o -o main  -ldl 

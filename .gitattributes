@@ -1,0 +1,11 @@
+libs/onnxruntime-win-x64-1.15.1/lib/onnxruntime.dll filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-win-x64-1.15.1/lib/onnxruntime_providers_shared.dll filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-win-x64-1.15.1/lib/onnxruntime.lib filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-win-x64-1.15.1/lib/onnxruntime_providers_shared.lib filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-win-x64-1.15.1/lib/onnxruntime.pdb filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-win-x64-1.15.1/lib/onnxruntime_providers_shared.pdb filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-linux-aarch64-1.15.1/lib/libonnxruntime.so.1.15.1 filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-linux-arm-1.19.0/lib/libonnxruntime.so.1.19.0 filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-osx-x86_64-1.15.1/lib/libonnxruntime.1.15.1.dylib filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-osx-x86_64-1.15.1/lib/libonnxruntime.dylib filter=lfs diff=lfs merge=lfs -text
+libs/onnxruntime-osx-x86_64-1.15.1/lib/libonnxruntime.1.15.1.dylib.dSYM filter=lfs diff=lfs merge=lfs -text

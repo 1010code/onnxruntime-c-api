@@ -1,0 +1,442 @@
+The target system is: Linux -  - arm
+The host system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/3.20.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/3.20.4/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~3/DELTAI~1/MinGW/X86_64~1.0-P/bin/mingw32-make.exe -f Makefile cmTC_b675b/fast && C:/PROGRA~3/DELTAI~1/MinGW/X86_64~1.0-P/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b675b.dir\build.make CMakeFiles/cmTC_b675b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b675b.dir/CMakeCCompilerABI.c.o
+C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~2.EXE   -v -o CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~2.EXE
+Target: arm-none-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --host=i686-w64-mingw32 --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-libiconv-prefix=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-pkgversion='GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)'
+Thread model: posix
+gcc version 9.2.1 20191025 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/cc1.exe -quiet -v -iprefix c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/ -isysroot c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=neon -mthumb -mtls-dialect=gnu -march=armv7-a+simd -auxbase-strip CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o -version -o C:\Users\YILIN~1.TSA\AppData\Local\Temp\cc6aRuw6.s
+GNU C17 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) version 9.2.1 20191025 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 5.3.1 20160211, GMP version 4.3.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include"
+ignoring nonexistent directory "c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc/lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc/usr/include
+End of search list.
+GNU C17 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) version 9.2.1 20191025 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 5.3.1 20160211, GMP version 4.3.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 74a7fe8cd1cea75962a8e8ff2e4df721
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/as.exe -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o C:\Users\YILIN~1.TSA\AppData\Local\Temp\cc6aRuw6.s
+GNU assembler version 2.33.1 (arm-none-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 2.33.1.20191209
+COMPILER_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+Linking C executable cmTC_b675b
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b675b.dir\link.txt --verbose=1
+C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~2.EXE  -v CMakeFiles/cmTC_b675b.dir/CMakeCCompilerABI.c.o -o cmTC_b675b 
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~2.EXE
+COLLECT_LTO_WRAPPER=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe
+Target: arm-none-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --host=i686-w64-mingw32 --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-libiconv-prefix=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-pkgversion='GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)'
+Thread model: posix
+gcc version 9.2.1 20191025 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 
+COMPILER_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b675b'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/collect2.exe -plugin c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\YILIN~1.TSA\AppData\Local\Temp\ccUrDg4d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_b675b c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1 -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_b675b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b675b'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include]
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed]
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include]
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/include]
+  end of search list found
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include]
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed]
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include]
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/include] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/include]
+  implicit include dirs: [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-linux-gnueabihf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/PROGRA~3/DELTAI~1/MinGW/X86_64~1.0-P/bin/mingw32-make.exe -f Makefile cmTC_b675b/fast && C:/PROGRA~3/DELTAI~1/MinGW/X86_64~1.0-P/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b675b.dir\build.make CMakeFiles/cmTC_b675b.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b675b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~2.EXE   -v -o CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~2.EXE]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --host=i686-w64-mingw32 --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-libiconv-prefix=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-pkgversion='GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.1 20191025 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd']
+  ignore line: [ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/cc1.exe -quiet -v -iprefix c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/ -isysroot c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=neon -mthumb -mtls-dialect=gnu -march=armv7-a+simd -auxbase-strip CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o -version -o C:\Users\YILIN~1.TSA\AppData\Local\Temp\cc6aRuw6.s]
+  ignore line: [GNU C17 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) version 9.2.1 20191025 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 4.3.2  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc/lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) version 9.2.1 20191025 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 4.3.2  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 74a7fe8cd1cea75962a8e8ff2e4df721]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd']
+  ignore line: [ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/as.exe -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o C:\Users\YILIN~1.TSA\AppData\Local\Temp\cc6aRuw6.s]
+  ignore line: [GNU assembler version 2.33.1 (arm-none-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 2.33.1.20191209]
+  ignore line: [COMPILER_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b675b.dir\CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd']
+  ignore line: [Linking C executable cmTC_b675b]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b675b.dir\link.txt --verbose=1]
+  ignore line: [C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~2.EXE  -v CMakeFiles/cmTC_b675b.dir/CMakeCCompilerABI.c.o -o cmTC_b675b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~2.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --host=i686-w64-mingw32 --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-libiconv-prefix=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-pkgversion='GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.1 20191025 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) ]
+  ignore line: [COMPILER_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b675b'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd']
+  link line: [ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/collect2.exe -plugin c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\YILIN~1.TSA\AppData\Local\Temp\ccUrDg4d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_b675b c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1 -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_b675b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\YILIN~1.TSA\AppData\Local\Temp\ccUrDg4d.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b675b] ==> ignore
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o]
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o]
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_b675b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o]
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crt1.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crti.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crtn.o]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/lib]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/lib]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crt1.o;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crti.o;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crtn.o]
+  implicit dirs: [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/lib;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/lib;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~3/DELTAI~1/MinGW/X86_64~1.0-P/bin/mingw32-make.exe -f Makefile cmTC_84855/fast && C:/PROGRA~3/DELTAI~1/MinGW/X86_64~1.0-P/bin/mingw32-make.exe  -f CMakeFiles\cmTC_84855.dir\build.make CMakeFiles/cmTC_84855.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84855.dir/CMakeCXXCompilerABI.cpp.o
+C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~1.EXE   -v -o CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~1.EXE
+Target: arm-none-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --host=i686-w64-mingw32 --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-libiconv-prefix=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-pkgversion='GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)'
+Thread model: posix
+gcc version 9.2.1 20191025 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/cc1plus.exe -quiet -v -iprefix c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/ -isysroot c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc -D_GNU_SOURCE C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=neon -mthumb -mtls-dialect=gnu -march=armv7-a+simd -auxbase-strip CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o -version -o C:\Users\YILIN~1.TSA\AppData\Local\Temp\ccNvjo3L.s
+GNU C++14 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) version 9.2.1 20191025 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 5.3.1 20160211, GMP version 4.3.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1"
+ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf"
+ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/backward"
+ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include"
+ignoring nonexistent directory "c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc/lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../include"
+ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed"
+ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/backward
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include
+ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc/usr/include
+End of search list.
+GNU C++14 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) version 9.2.1 20191025 (arm-none-linux-gnueabihf)
+	compiled by GNU C version 5.3.1 20160211, GMP version 4.3.2, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 040c5e6a16f163db16fa5f317f6ca097
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/as.exe -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o C:\Users\YILIN~1.TSA\AppData\Local\Temp\ccNvjo3L.s
+GNU assembler version 2.33.1 (arm-none-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 2.33.1.20191209
+COMPILER_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+Linking CXX executable cmTC_84855
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_84855.dir\link.txt --verbose=1
+C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~1.EXE  -v CMakeFiles/cmTC_84855.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_84855 
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe
+Target: arm-none-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --host=i686-w64-mingw32 --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-libiconv-prefix=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-pkgversion='GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)'
+Thread model: posix
+gcc version 9.2.1 20191025 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 
+COMPILER_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/
+LIBRARY_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib/;c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84855' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/collect2.exe -plugin c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\YILIN~1.TSA\AppData\Local\Temp\cc69v2EI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_84855 c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1 -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_84855.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84855' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1]
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf]
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/backward]
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include]
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed]
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include]
+    add: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/include]
+  end of search list found
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include/c++/9.2.1]
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf]
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/backward] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include/c++/9.2.1/backward]
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include]
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed]
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include]
+  collapse include dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/include] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/include]
+  implicit include dirs: [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include/c++/9.2.1;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include/c++/9.2.1/backward;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-linux-gnueabihf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/PROGRA~3/DELTAI~1/MinGW/X86_64~1.0-P/bin/mingw32-make.exe -f Makefile cmTC_84855/fast && C:/PROGRA~3/DELTAI~1/MinGW/X86_64~1.0-P/bin/mingw32-make.exe  -f CMakeFiles\cmTC_84855.dir\build.make CMakeFiles/cmTC_84855.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_84855.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~1.EXE   -v -o CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o -c "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~1.EXE]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --host=i686-w64-mingw32 --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-libiconv-prefix=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-pkgversion='GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.1 20191025 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd']
+  ignore line: [ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/cc1plus.exe -quiet -v -iprefix c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/ -isysroot c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc -D_GNU_SOURCE C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=neon -mthumb -mtls-dialect=gnu -march=armv7-a+simd -auxbase-strip CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o -version -o C:\Users\YILIN~1.TSA\AppData\Local\Temp\ccNvjo3L.s]
+  ignore line: [GNU C++14 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) version 9.2.1 20191025 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 4.3.2  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1"]
+  ignore line: [ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf"]
+  ignore line: [ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/backward"]
+  ignore line: [ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc/lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/lib/gcc/../../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include/c++/9.2.1/backward]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/include]
+  ignore line: [ c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) version 9.2.1 20191025 (arm-none-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 4.3.2  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 040c5e6a16f163db16fa5f317f6ca097]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd']
+  ignore line: [ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/as.exe -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o C:\Users\YILIN~1.TSA\AppData\Local\Temp\ccNvjo3L.s]
+  ignore line: [GNU assembler version 2.33.1 (arm-none-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 2.33.1.20191209]
+  ignore line: [COMPILER_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_84855.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd']
+  ignore line: [Linking CXX executable cmTC_84855]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_84855.dir\link.txt --verbose=1]
+  ignore line: [C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~1.EXE  -v CMakeFiles/cmTC_84855.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_84855 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~3\DELTAI~1\MinGW\GCC-AR~2.12-\bin\ARM-NO~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/src/gcc/configure --target=arm-none-linux-gnueabihf --prefix= --with-sysroot=/arm-none-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/install//arm-none-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --host=i686-w64-mingw32 --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-mode=thumb --with-arch=armv7-a --with-libiconv-prefix=/tmp/dgboter/bbs/dsggnu-vm-1-x86_64--mingw32-i686/buildbot/mingw32-i686--arm-none-linux-gnueabihf/build/build-mingw-arm-none-linux-gnueabihf/host-tools --with-pkgversion='GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.1 20191025 (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) ]
+  ignore line: [COMPILER_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib/]
+  ignore line: [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84855' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+simd']
+  link line: [ c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/collect2.exe -plugin c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/liblto_plugin-0.dll -plugin-opt=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\YILIN~1.TSA\AppData\Local\Temp\cc69v2EI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_84855 c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1 -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib -Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_84855.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../libexec/gcc/arm-none-linux-gnueabihf/9.2.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\YILIN~1.TSA\AppData\Local\Temp\cc69v2EI.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=c:\progra~3\deltai~1\mingw\gcc-ar~2.12-\bin\../arm-none-linux-gnueabihf/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_84855] ==> ignore
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o]
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o]
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib]
+    arg [-Lc:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib] ==> dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_84855.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o]
+    arg [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o] ==> obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crt1.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crt1.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crti.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crti.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o]
+  collapse obj [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib/crtn.o] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crtn.o]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../lib/gcc/arm-none-linux-gnueabihf/9.2.1/../../../../arm-none-linux-gnueabihf/lib] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/lib]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/lib] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/lib]
+  collapse library dir [c:/progra~3/deltai~1/mingw/gcc-ar~2.12-/bin/../arm-none-linux-gnueabihf/libc/usr/lib] ==> [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crt1.o;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crti.o;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtbegin.o;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/crtend.o;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib/crtn.o]
+  implicit dirs: [C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/lib;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/lib;C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib]
+  implicit fwks: []
+
+

@@ -1,0 +1,3 @@
+C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/edit_cache.dir
+C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/main.dir
+C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build/CMakeFiles/rebuild_cache.dir

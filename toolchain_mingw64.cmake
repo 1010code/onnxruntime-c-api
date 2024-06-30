@@ -1,0 +1,2 @@
+SET(TOOLCHAIN "mingw64")
+SET(PLATFORM "Windows")

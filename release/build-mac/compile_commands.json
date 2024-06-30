@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/build",
+  "command": "/usr/bin/clang++  -I/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api -I/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/libs/onnxruntime-osx-x86_64-1.15.1/include -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/main.dir/run.cpp.o -c /Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/run.cpp",
+  "file": "/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/run.cpp",
+  "output": "CMakeFiles/main.dir/run.cpp.o"
+},
+{
+  "directory": "/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/build",
+  "command": "/usr/bin/clang++  -I/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api -I/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/libs/onnxruntime-osx-x86_64-1.15.1/include -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/main.dir/OrtInference.cpp.o -c /Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/OrtInference.cpp",
+  "file": "/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/OrtInference.cpp",
+  "output": "CMakeFiles/main.dir/OrtInference.cpp.o"
+}
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "ONNX GCC-linaro-7.5.0-aarch64",
+        "compilers": {
+            "C": "aarch64-linux-gnu-gcc.exe",
+            "CXX": "aarch64-linux-gnu-g++.exe"
+        },
+        "preferredGenerator": {
+            "name": "MinGW Makefiles"
+        },
+        "toolchainFile": "toolchain_aarch64.cmake"
+    },
+    {
+        "name": "ONNX GCC-8.1.0-mingw64",
+        "compilers": {
+            "C": "gcc.exe",
+            "CXX": "g++.exe"
+        },
+        "preferredGenerator": {
+            "name": "MinGW Makefiles"
+        },
+        "toolchainFile": "toolchain_mingw64.cmake"
+    },
+    {
+        "name": "ONNX mac-x86_64",
+        "compilers": {
+            "C": "/usr/bin/clang",
+            "CXX": "/usr/bin/clang++"
+        },
+        "preferredGenerator": {
+            "name": "Unix Makefiles"
+        },
+        "toolchainFile": "toolchain_mac.cmake"
+    },
+    {
+        "name": "ONNX GCC-linaro-9.2.0-arm32",
+        "compilers": {
+            "C": "arm-none-linux-gnueabihf-gcc.exe",
+            "CXX": "arm-none-linux-gnueabihf-c++.exe"
+        },
+        "preferredGenerator": {
+            "name": "MinGW Makefiles"
+        },
+        "toolchainFile": "toolchain_arm32.cmake"
+    }
+
+]

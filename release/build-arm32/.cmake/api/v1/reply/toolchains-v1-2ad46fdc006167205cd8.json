@@ -1,0 +1,105 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/lib",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/lib",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-gcc.exe",
+				"version" : "9.2.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include/c++/9.2.1",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include/c++/9.2.1/backward",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/include",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc/arm-none-linux-gnueabihf/9.2.1",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/lib/gcc",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/lib",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/lib",
+						"C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/arm-none-linux-gnueabihf/libc/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "C:/ProgramData/Delta Industrial Automation/MinGW/gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-c++.exe",
+				"version" : "9.2.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

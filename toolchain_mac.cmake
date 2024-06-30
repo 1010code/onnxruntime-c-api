@@ -1,0 +1,2 @@
+SET(TOOLCHAIN "aarch64")
+SET(PLATFORM "Darwin")

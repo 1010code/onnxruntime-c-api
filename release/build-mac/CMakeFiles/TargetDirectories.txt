@@ -1,0 +1,3 @@
+/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/build/CMakeFiles/main.dir
+/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/build/CMakeFiles/edit_cache.dir
+/Users/yilintsai/Desktop/GitHub/1010code-github/onnxruntime-c-api/build/CMakeFiles/rebuild_cache.dir

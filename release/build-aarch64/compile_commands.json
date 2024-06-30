@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build",
+  "command": "C:\\PROGRA~3\\DELTAI~1\\MinGW\\GCC-LI~1.12-\\bin\\AA3769~1.EXE  -IC:\\Users\\YILIN.TSAI\\Desktop\\onnxruntime-c-api -IC:\\Users\\YILIN.TSAI\\Desktop\\onnxruntime-c-api\\libs\\onnxruntime-linux-aarch64-1.15.1\\include -g -o CMakeFiles\\main.dir\\run.cpp.o -c C:\\Users\\YILIN.TSAI\\Desktop\\onnxruntime-c-api\\run.cpp",
+  "file": "C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/run.cpp"
+},
+{
+  "directory": "C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/build",
+  "command": "C:\\PROGRA~3\\DELTAI~1\\MinGW\\GCC-LI~1.12-\\bin\\AA3769~1.EXE  -IC:\\Users\\YILIN.TSAI\\Desktop\\onnxruntime-c-api -IC:\\Users\\YILIN.TSAI\\Desktop\\onnxruntime-c-api\\libs\\onnxruntime-linux-aarch64-1.15.1\\include -g -o CMakeFiles\\main.dir\\OrtInference.cpp.o -c C:\\Users\\YILIN.TSAI\\Desktop\\onnxruntime-c-api\\OrtInference.cpp",
+  "file": "C:/Users/YILIN.TSAI/Desktop/onnxruntime-c-api/OrtInference.cpp"
+}
+]
