@@ -10,13 +10,20 @@ cmake --build build
 ## Mingw64 手動編譯指令
 ```
 # 配置項目
-cmake -S . -B build -G "MinGW Makefiles" -DCMAKE_C_COMPILER:FILEPATH=aarch64-linux-gnu-gcc.exe -DCMAKE_C_COMPILER:FILEPATH=gcc.exe -DCMAKE_CXX_COMPILER:FILEPATH=g++.exe -DCMAKE_TOOLCHAIN_FILE:FILEPATH=toolchain_mingw64.cmake
+cmake -S . -B build -G "MinGW Makefiles" -DCMAKE_C_COMPILER:FILEPATH=gcc.exe -DCMAKE_CXX_COMPILER:FILEPATH=g++.exe -DCMAKE_TOOLCHAIN_FILE:FILEPATH=toolchain_mingw64.cmake
 # 建構項目
 cmake --build build
 ```
 
 
 ## Mac 編譯
+```
+# 配置項目
+cmake -S . -B build -G "Unix Makefiles" -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++ -DCMAKE_TOOLCHAIN_FILE:FILEPATH=toolchain_mac.cmake
+# 建構項目
+cmake --build build
+```
+
 ```
 g++ -o main ./run.cpp ./OrtInference.cpp -I./libs/onnxruntime-osx-x86_64-1.15.1/include -I./ -std=c++17
 ```
